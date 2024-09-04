@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
@@ -18,7 +19,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto ",
+        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-8 lg:gap-8 mx-auto ",
         className
       )}
     >
@@ -105,8 +106,9 @@ export const BentoGridItem = ({
                 {
                     id === 3 && (
                         <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-                            <div className="flex flex-col gap-3 lg:gap-8">
-                                {['Next.js','React.js','TypeScript'].map((item) => (
+                            <div className="flex flex-col gap-3 lg:gap-5">
+                                <span className="py-3 px-2 rounded-lg text-center bg-[#10132e]"/>
+                                {['MERN','MEAN','GIT/GITHUB'].map((item) => (
                                     <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                                         {item}
                                     </span>
@@ -114,9 +116,9 @@ export const BentoGridItem = ({
                                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
 
                             </div>
-                            <div className="flex flex-col gap-3 lg:gap-8">
-                                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
-                                {['Python','MongoDB','JAVA'].map((item) => (
+                            <div className="flex flex-col gap-3 lg:gap-5">
+                                <span className="py-3 px-2 rounded-lg text-center bg-[#10132e]"/>
+                                {['Python','SQL/NoSQL','JAVA'].map((item) => (
                                     <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                                         {item}
                                     </span>

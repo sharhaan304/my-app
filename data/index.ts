@@ -207,7 +207,7 @@ export const navItems = [
       quote:
         "I attended KCC for my primary and secondary education, which laid a solid foundation for my academic journey. I got 165 in Grade 5 Scholarship Examination  And also I got 9A in GCE O/L",
       name: "T/Kinniya Central College",
-      title: "Grade 1-11",
+      title: "Grade 1-11, G.C.E O/L",
       logo: "/KKKKK.svg", // Update the path to your logo image
     },
   ];
