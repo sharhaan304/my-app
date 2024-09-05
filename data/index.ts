@@ -13,7 +13,7 @@ export const navItems = [
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "mine.svg",
+      img: "./mine.svg",
       spareImg: "",
     },
     {
@@ -43,7 +43,7 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
+      img: "./grid.svg",
       spareImg: "/b4.svg",
     },
   
@@ -54,7 +54,7 @@ export const navItems = [
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
+      img: "./b5.svg",
       spareImg: "/grid.svg",
     },
     {
@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: " Real time Chatbot By using RAG",
       des: "Identify the customers query and deliver best solution by using RAG,LLM.",
-      img: "chatbot.svg",
+      img: "./chatbot.svg",
       iconLists: ["/flask.svg", "/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
       link: "https://github.com/Hevb890/IFS_Project",
     },
@@ -82,7 +82,7 @@ export const navItems = [
       id: 2,
       title: "Website for Supply chain Management",
       des: "A website for managing the supply chain of a company from their owm data pipeline.",
-      img: "suply.jpg",
+      img: "./suply.jpg",
       iconLists: ["/next.svg", "/tail.svg", "/mongodb-logo.svg", "/stream.svg", "/c.svg"],
       link: "https://github.com/Hevb890/IFS_Project",
     },
@@ -90,7 +90,7 @@ export const navItems = [
       id: 3,
       title: "Python Sentiment Analysis",
       des: "by using NLTK and BERT to rating the reviews of luxury Hotels.",
-      img: "PSA.svg",
+      img: "./PSA.svg",
       iconLists: ["/pytorch.svg", "/pyt.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://github.com/sharhaan304/Python-Sentiment-anlaysis-using-NLTK-and-BERT",
     },
@@ -98,7 +98,7 @@ export const navItems = [
       id: 4,
       title: "My Portfolio Website",
       des: "modern Portfolio website by using Next.js, framer motion and Tailwind CSS.",  
-      img: "PPW.svg",
+      img: "./PPW.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg", "/c.svg", "/fm.svg"],
       link: "https://github.com/sharhaan304/my-app",
     },
@@ -173,17 +173,17 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
+      img: "./git.svg",
       link: "https://github.com/sharhaan304"
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "./twit.svg",
       link:"https://x.com/sharhaanmfm"
     },
     {
       id: 3,
-      img: "/link.svg",
+      img: "./link.svg",
       link:"https://www.linkedin.com/in/mohamed-sharhaan-62b313247/ "
     },
   ];
@@ -194,20 +194,20 @@ export const navItems = [
         "I completed my GCE Advanced Level (A/L) at T/R.K.M Hindu College, an institution known for its commitment to academic excellence and cultural values. During my time there, I specialized in subjects that challenged and expanded my intellectual boundaries, preparing me for the next steps in my academic and professional journey.",
       name: "T/R.K.M Sri Koneswara Hindu College",
       title: "G.C.E A/L -> Grade 12-13",
-      logo: "/hinduite.svg", // Update the path to your logo image
+      logo: "./hinduite.svg", // Update the path to your logo image
     },
     {
       quote:
         "I am currently pursuing a Bachelor's degree in Artificial Intelligence at the University of Moratuwa, where I am gaining deep expertise in machine learning, data science, and intelligent systems.",
       name: "University of Moratuwa",
       title: "BSc(hons) in Artificial Intelligence -> Reading",
-      logo: "/University_of_Moratuwa_logo.svg", // Update the path to your logo image
+      logo: "./University_of_Moratuwa_logo.svg", // Update the path to your logo image
     },
     {
       quote:
         "I attended KCC for my primary and secondary education, which laid a solid foundation for my academic journey. I got 165 in Grade 5 Scholarship Examination  And also I got 9A in GCE O/L",
       name: "T/Kinniya Central College",
       title: "Grade 1-11, G.C.E O/L",
-      logo: "/KKKKK.svg", // Update the path to your logo image
+      logo: "./KKKKK.svg", // Update the path to your logo image
     },
   ];
