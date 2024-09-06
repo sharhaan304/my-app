@@ -194,7 +194,7 @@ export const navItems = [
         "I completed my GCE Advanced Level (A/L) at T/R.K.M Hindu College, an institution known for its commitment to academic excellence and cultural values. During my time there, I specialized in subjects that challenged and expanded my intellectual boundaries, preparing me for the next steps in my academic and professional journey.",
       name: "T/R.K.M Sri Koneswara Hindu College",
       title: "G.C.E A/L -> Grade 12-13",
-      logo: "/hinduite.svg", // Update the path to your logo image
+      logo: "/hindu.svg", // Update the path to your logo image
     },
     {
       quote:
